@@ -19,7 +19,7 @@
         margin: 0;
       }
       body {
-        background-color: #131a43;
+        background-color: #222426;
         background-size: cover;
         background-position: center;
         height: 100vh;
@@ -136,13 +136,15 @@
     <script src="three.r134.min.js"></script>
     <script src="vanta.halo.min.js"></script>
     <script>
-      VANTA.HALO({
+      VANTA.TRUNK({
         el: "body",
         mouseControls: false,
         touchControls: true,
         gyroControls: false,
         minHeight: 200.0,
         minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
       });
     </script>
     <script>
